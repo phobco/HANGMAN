@@ -11,3 +11,6 @@ git clone https://github.com/phobco/HANGMAN.git
 ```ruby
 ruby main.rb
 ```
+---
+P.S.
+Свои слова вы можете добавлять в файл `words.txt`, лежаший в папке `data`
