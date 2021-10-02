@@ -8,7 +8,7 @@
 git clone https://github.com/phobco/HANGMAN.git
 ```
 3. Запустите файл **main.rb** с помощью Ruby:
-```ruby
+```bash
 ruby main.rb
 ```
 ## Добавление собственных слов в игру:
