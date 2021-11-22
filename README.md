@@ -7,14 +7,20 @@
 ```bash
 git clone https://github.com/phobco/HANGMAN.git
 ```
-3. Установите необходимые гемы (если нет бандлера - установите `gem install bundler`):
+3. Установите гем [Bundler](https://bundler.io/):
+```
+gem install bundler
+```
+**Важно:** далее все команды запускать из корня приложения.
+
+4. Установите необходимые приложению гемы, с помощью Bundler:
 ```
 bundle install
 ```
 
-4. Запустите файл **main.rb** с помощью Ruby:
+5. Запустите файл **main.rb** с помощью Bundler и Ruby:
 ```bash
-ruby main.rb
+bundle exec ruby main.rb
 ```
 ## Добавление собственных слов в игру:
 Свои слова вы можете добавлять в файл `words.txt`, лежаший в папке `data`.
