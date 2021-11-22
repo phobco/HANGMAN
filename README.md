@@ -7,7 +7,7 @@
 ```bash
 git clone https://github.com/phobco/HANGMAN.git
 ```
-3. Установите все необходимые гемы (если нет бандлера - установите `gem install bundler`):
+3. Установите необходимые гемы (если нет бандлера - установите `gem install bundler`):
 ```
 bundle install
 ```
