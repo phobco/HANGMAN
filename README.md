@@ -7,7 +7,12 @@
 ```bash
 git clone https://github.com/phobco/HANGMAN.git
 ```
-3. Запустите файл **main.rb** с помощью Ruby:
+3. Установите все необходимые гемы (если нет бандлера - установите `gem install bundler`):
+```
+bundle install
+```
+
+4. Запустите файл **main.rb** с помощью Ruby:
 ```bash
 ruby main.rb
 ```
