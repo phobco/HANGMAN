@@ -19,9 +19,8 @@ class Game
   end
 
   def letters_to_guess
-    @letters.map do |letter|
-      letter if @user_guesses.include?(normalize_letter(letter))
-    end
+    @letters.
+      map { |letter| letter if @user_guesses.include?(normalize_letter(letter)) }
   end
 
   def lost?
@@ -37,7 +36,7 @@ class Game
   end
 
   def normalized_letters
-    @letters.map { |letter| normalize_letter(letter) }
+    @letters.map(&method(:normalize_letter))
   end
 
   def over?
