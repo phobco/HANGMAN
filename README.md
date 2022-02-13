@@ -7,16 +7,16 @@
 
 #### Инструкция по запуску:
 1. Склонируйте репозиторий
-```bash
-git clone git@github.com:phobco/hangman.git
+```
+$ git clone git@github.com:phobco/hangman.git
 ```
 2. Установите необходимые приложению гемы
 ```
-bundle install
+$ bundle
 ```
 3. Запустите файл **main.rb**
-```bash
-bundle exec ruby main.rb
+```
+$ bundle exec ruby main.rb
 ```
 ## Добавление собственных слов в игру:
 Свои слова вы можете добавлять в файл `words.txt`, лежаший в папке `data`.
